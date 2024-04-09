@@ -37,7 +37,7 @@ function App() {
                   element={<Login />}
                 />
                 <Route  element={<AuthRequired />}>
-                  <Route path="host" element={<HostLayout />}>
+                  <Route path="host" element={<HostLayout />}> 
                       <Route  index element={<Dashboard />} />
                       <Route path="income" element={<Income />} />
                       <Route path="vans" element={<Vans />} />
