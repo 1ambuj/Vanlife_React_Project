@@ -16,7 +16,7 @@ export default function Header() {
                 <NavLink to="/about" className={({isActive}) => isActive? "active" : ""}>About</NavLink>
                 <NavLink to="/van" className={({isActive}) => isActive? "active" : ""}>Vans</NavLink>
                 <Link to="login" className="login-link">
-                <img
+                   <img
                         src={login_img}
                         className="login-icon"
                     />
